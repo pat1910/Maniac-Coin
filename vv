@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PumpManiac Coin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PumpManiac Coin</h1>
+        <p>Life’s too short to stay boring – let’s Pump it up!</p>
+        <button onclick="window.location.href='https://pancakeswap.finance/'">Buy MANIAC</button>
+    </header>
+    <main>
+        <section id="hero">
+            <img src="images/pumpdog.gif" alt="PumpManiac Dog">
+            <h2>Welcome to PumpManiac!</h2>
+            <p>Join the community where fun meets purpose. Every transaction supports dogs in need!</p>
+        </section>
+        <section id="tokenomics">
+            <h2>Tokenomics</h2>
+            <ul>
+                <li>2% to charity</li>
+                <li>1% burn</li>
+                <li>1% redistribution</li>
+            </ul>
+        </section>
+        <section id="fun-zone">
+            <h2>Fun Zone</h2>
+            <p>Play games, create memes, and join our daily Pump Party! Every move you make supports the mission.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 PumpManiac Coin | <a href="https://discord.gg/">Join Discord</a></p>
+    </footer>
+</body>
+</html>
+/* Reset and Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #FFD700;
+    color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+header button {
+    background-color: #333;
+    color: #FFD700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #555;
+}
+
+/* Sections */
+#hero {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#hero img {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#tokenomics, #fun-zone {
+    padding: 30px 20px;
+}
+
+#tokenomics ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+#tokenomics ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
